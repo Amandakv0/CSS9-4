@@ -460,4 +460,84 @@ button{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 390px;
+}
+.footerMainWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footerMainDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1028px;
+}
+.fooetrLogoFrame{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #4B557D;
+}
+.footerLogosDiv{
+    display: flex;
+    gap: 10px;
+}
+.secondRFowMainDiv{
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #4B557D;
+    justify-content: space-between;
+    gap: 33px;
+}
+.secondCOlFOoterDIv{
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    gap: 34px;
+    padding-right: 34px;
+    border-right: 1px solid #4B557D;
+}
+.rowsFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    max-width: 440px;
+    padding-bottom: 25px;
+    padding-right: 34px;
+    border-right: 1px solid #4B557D;
+}
+.logosDiv{
+    display: flex;
+    gap: 12px;
+}
+.miniColumns{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+ul{
+    list-style: none;
+}
+.listFooter{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footerLastLineDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.lastLine{
+    color: #FFF;
+    font-size: 16px;
 }
