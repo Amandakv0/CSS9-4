@@ -20,6 +20,12 @@ body{
     justify-content: space-between;
     padding: 20px 0px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .firstRowHEaderTExtsMainDiv{
+        width: 100%;
+        max-width: 536px;
+    }
+}
 .blueMiniText{
     color: #1C2752;
     font-size: 18px;
@@ -34,6 +40,11 @@ body{
     display: flex;
     gap: 17px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .IconsHeaderDiv{
+        display: none;
+    }
+}
 .secondRowWrapper{
     display: flex;
     justify-content: center;
@@ -44,6 +55,19 @@ body{
     width: 100%;
     max-width: 1028px;
     justify-content: space-between;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .secondRowHeaderDIv{
+        max-width: 536px;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainLogo{
+        width: 230px;
+        height: 44px;
+    }
 }
 .headerFramesDiv{
     display: flex;
@@ -77,6 +101,12 @@ body{
     background-image: url("../images/mainImg.svg");
     background-size: cover;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainBackgroundImageDiv{
+        background-image: url("../images/tabletMainImg.svg");
+        width: 704px;
+    }
+}
 .mainImageMainDiv{
     position: absolute;
     left: 200px;
@@ -85,6 +115,12 @@ body{
     flex-direction: column;
     width: 100%;
     max-width: 619px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainImageMainDiv{
+        left: 43px;
+        bottom: 56px;
+    }
 }
 .settingsIconDiv{
     display: flex;
@@ -142,6 +178,11 @@ a{
     width: 100%;
     max-width: 1028px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .secondMainContainer{
+        max-width: 704px;
+    }
+}
 .secondMainDiv{
     display: flex;
     flex-direction: column;
@@ -161,6 +202,11 @@ a{
     align-items: center;
     padding: 8px 16px;
     background-color: #FFC4E7;
+}   
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .welcomeNextDiv{
+        width: fit-content;
+    }
 }
 .pinkText{
     color: #DD2590;
@@ -187,6 +233,12 @@ a{
     justify-content: space-between;
     width: 100%;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .bottomDIv{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
 .bottomDivTExtsDiv{
     display: flex;
     flex-direction: column;
@@ -207,6 +259,20 @@ a{
     padding: 84px 0px;
     background-color: #DD2590;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .thirdContainerWrapper{
+        max-width: 720px;
+        padding: 60px 32px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .thirdContainerMainWrapper{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 .miniDivswhite{
     display: flex;
     align-items: center;
@@ -240,6 +306,12 @@ h2{
     width: 100%;
     justify-content: space-between;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .miniFarmesDiv{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
 .miniDivs{
     display: flex;
     align-items: center;
@@ -271,6 +343,18 @@ h2{
     width: 100%;
     align-items: center;
     justify-content: space-between;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .commercialMainDiv{
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .comercialImage{
+        width: 508px;
+        align-self: flex-start;
+    }
 }
 .balckHeader{
     color: #000;
@@ -309,6 +393,11 @@ button{
     width: 100%;
     max-width: 1028px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .ourServicesMainDiv{
+        max-width: 704px;
+    }
+}
 .ourServicesHeaderDiv{
     width: 100%;
     max-width: 687px;
@@ -331,6 +420,12 @@ button{
     width: 100%;
     max-width: 326px;
     padding: 47px 36px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .ppinkDiv{
+        max-width: 218px;
+        padding: 42px 35px;
+    }
 }
 .pinkTextt{
     color: #DD2590;
@@ -363,6 +458,13 @@ button{
     gap: 60px;
     justify-content: flex-end;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainReasonsDiv{
+        flex-direction: column;
+        padding-left: Z;
+        justify-content: center;
+    }
+}
 .reasonsDiv{
     display: flex;
     width: 100%;
@@ -370,6 +472,11 @@ button{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .reasonsDiv{
+        max-width: 704px;
+    }
 }
 .pinkBolderText{
     color: #DD2590;
@@ -450,6 +557,11 @@ button{
     flex-direction: column;
     gap: 64px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .takeWordMainDiv{
+        max-width: 710px;
+    }
+}
 .mianTextsDDiv{
     display: flex;
     flex-direction: column;
@@ -461,6 +573,12 @@ button{
     justify-content: space-between;
     width: 100%;
     margin-bottom: 390px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .avatarFramesDiv{
+        flex-direction: column;
+        gap: 32px;
+    }
 }
 .footerMainWrapper{
     display: flex;
@@ -474,12 +592,29 @@ button{
     gap: 40px;
     max-width: 1028px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footerMainDiv{
+        max-width: 704px;
+    }
+}
 .fooetrLogoFrame{
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding-bottom: 55px;
     border-bottom: 1px solid #4B557D;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .fooetrLogoFrame{
+        flex-direction: column;
+        gap: 23px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .headerMainLogo{
+        width: 230px;
+        height: 44px;
+    }
 }
 .footerLogosDiv{
     display: flex;
@@ -493,6 +628,12 @@ button{
     justify-content: space-between;
     gap: 33px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .secondRFowMainDiv{
+        flex-direction: column;
+        border: none;
+    }
+}
 .secondCOlFOoterDIv{
     display: flex;
     width: 100%;
@@ -500,6 +641,13 @@ button{
     gap: 34px;
     padding-right: 34px;
     border-right: 1px solid #4B557D;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .secondCOlFOoterDIv{
+        border: none;
+        max-width: 377px;
+        justify-content: space-between;
+    }
 }
 .rowsFrame{
     display: flex;
@@ -510,6 +658,12 @@ button{
     padding-bottom: 25px;
     padding-right: 34px;
     border-right: 1px solid #4B557D;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .rowsFrame{
+        border: none;
+        max-width: 640px;
+    }
 }
 .logosDiv{
     display: flex;
@@ -540,4 +694,9 @@ ul{
 .lastLine{
     color: #FFF;
     font-size: 16px;
+}
+.twoRowsDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
